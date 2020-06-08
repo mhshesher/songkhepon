@@ -1,4 +1,7 @@
 # Songkhepon
+<p align="center">
+<img allign="left" src="Images/Home.jpg" Height="500">     <img allign="center" src="Images/Book_List.jpg" Height="500">     <img allign="right" src="Images/Summary.jpg" Height="500">
+</p>
 
 ## What is Songkhepon?
 Whenever we see books, what we check at first? The summary of book that is given either in the starting page, or in the last page. In this project, I have tried to retrieve those summary and put them together here. With this, you can have an initial idea about lots of books in one place.
