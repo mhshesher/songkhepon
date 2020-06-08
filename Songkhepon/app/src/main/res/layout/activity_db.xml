@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4"
+    android:orientation="vertical"
+    tools:context=".db">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#34EDBB00">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/dan" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center">
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#32FAFAFA" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnang"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#37004D98"
+                android:text="এঞ্জেল এন্ড ডেমনস"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FAFAFA"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:orientation="vertical" />
+
+            <Button
+                android:id="@+id/btndavc"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#36A50044"
+                android:text="দা ভিঞ্চি কোড"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FAFAFA"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:orientation="vertical" />
+
+            <Button
+                android:id="@+id/btnsymb"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#37004D98"
+                android:text="দ্য লস্ট সিম্বল"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FAFAFA"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:orientation="vertical" />
+
+            <Button
+                android:id="@+id/btninfr"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#36A50044"
+                android:text="ইনফার্নো"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FAFAFA"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:orientation="vertical" />
+
+            <Button
+                android:id="@+id/btnorigin"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#37004D98"
+                android:text="অরিজিন"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FAFAFA"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

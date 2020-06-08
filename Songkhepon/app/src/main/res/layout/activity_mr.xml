@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    android:orientation="vertical"
+    tools:context=".mr">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#34EDBB00">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/masud_rana" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center">
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#32FAFAFA" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnOkhondoOboshor"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#37004D98"
+                android:text="অখন্ড অবসর"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FAFAFA"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:orientation="vertical" />
+
+            <Button
+                android:id="@+id/btnAgnipurus"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#36A50044"
+                android:text="অগ্নিপুরুষ"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FAFAFA"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:orientation="vertical" />
+
+            <Button
+                android:id="@+id/btnDhongso"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#34004D98"
+                android:text="ধ্বংস পাহাড়"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FAFAFA"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
